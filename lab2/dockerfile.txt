@@ -1,0 +1,7 @@
+# DOCKER-VERSION 14.04
+FROM ubuntu
+MAINTAINER Naif Alotaibi nsa6802@g.rit.edu
+
+RUN rm /var/www/html/index.html
+RUN apt-git update -y
+cp /home/student/Desktop/explore_california /home/root/www/var/
